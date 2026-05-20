@@ -5,6 +5,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/ezrafchev/favela_sustentavel)
 
 Projeto abrangente para atender às necessidades das favelas, visando sustentabilidade, educação, saúde e qualidade de vida.
+Desenvolvido por mim.
 
 ---
 
