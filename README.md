@@ -7,6 +7,9 @@
 Projeto abrangente para atender às necessidades das favelas, visando sustentabilidade, educação, saúde e qualidade de vida.
 Desenvolvido por mim.
 
+## 👤 Criador e Desenvolvedor
+- **Ezra F. Chev (@ezrafchev)** – Criador e desenvolvedor principal do projeto.
+
 ---
 
 ## 📋 Sumário
