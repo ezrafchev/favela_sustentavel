@@ -1,0 +1,62 @@
+[
+  {
+    "id": "agua",
+    "nome": "Água e Meio Ambiente",
+    "objetivo": "Garantir segurança hídrica, reduzir riscos climáticos e fortalecer infraestrutura verde.",
+    "prioridades": [
+      "Reservatórios de captação e uso racional da água",
+      "Purificação com monitoramento de qualidade",
+      "Drenagem e amortecimento contra alagamentos",
+      "Reflorestamento de encostas e áreas vulneráveis"
+    ],
+    "arquivo": "agua_meio_ambiente/README.md"
+  },
+  {
+    "id": "educacao",
+    "nome": "Educação e Tecnologia",
+    "objetivo": "Expandir acesso à formação profissional, inclusão digital e conectividade local.",
+    "prioridades": [
+      "Postos educativos autossuficientes",
+      "Cursos técnicos e profissionalizantes",
+      "Energia renovável para continuidade operacional",
+      "Rede comunitária e laboratórios móveis"
+    ],
+    "arquivo": "educacao_tecnologia/README.md"
+  },
+  {
+    "id": "renda",
+    "nome": "Geração de Renda e Políticas",
+    "objetivo": "Fortalecer economia comunitária com governança participativa e renda local.",
+    "prioridades": [
+      "Hortas e cadeias curtas de abastecimento",
+      "Cooperativas com gestão compartilhada",
+      "Reciclagem como economia circular",
+      "Políticas locais de transparência e participação"
+    ],
+    "arquivo": "geracao_renda_politicas/README.md"
+  },
+  {
+    "id": "implementacao",
+    "nome": "Implementação e Sustentabilidade",
+    "objetivo": "Executar com cronograma, custos e monitoramento contínuo para escalar com consistência.",
+    "prioridades": [
+      "Planejamento por marcos e entregáveis",
+      "Orçamento por etapa com revisão periódica",
+      "Painel de indicadores e governança",
+      "Parcerias institucionais para expansão"
+    ],
+    "arquivo": "implementacao_sustentabilidade/README.md"
+  },
+  {
+    "id": "saude",
+    "nome": "Saúde",
+    "objetivo": "Oferecer atenção primária, prevenção e suporte digital de saúde na comunidade.",
+    "prioridades": [
+      "Infraestrutura de atendimento essencial",
+      "Serviços médicos de rotina e emergência",
+      "Telemedicina e triagem inteligente",
+      "Programas preventivos orientados por dados"
+    ],
+    "arquivo": "saude/README.md"
+  }
+]

@@ -1,0 +1,126 @@
+:root {
+  --bg: #070a12;
+  --surface: #111827cc;
+  --text: #f9fafb;
+  --muted: #c7d2fe;
+  --accent: #60a5fa;
+  --accent-2: #34d399;
+  --stroke: #334155;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at top, #0f172a, var(--bg) 55%);
+  line-height: 1.55;
+}
+
+.hero {
+  min-height: 50vh;
+  padding: 1.25rem clamp(1rem, 4vw, 4rem) 3rem;
+  border-bottom: 1px solid #1e293b;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand { font-weight: 700; letter-spacing: 0.02em; }
+
+.btn {
+  color: var(--text);
+  text-decoration: none;
+  border: 1px solid var(--stroke);
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+}
+
+.hero-content {
+  max-width: 720px;
+  margin-top: 3.5rem;
+}
+.tag {
+  color: var(--accent-2);
+  font-weight: 600;
+  margin: 0;
+}
+
+h1 { font-size: clamp(2rem, 5vw, 4rem); margin: 0.4rem 0 1rem; line-height: 1.08; }
+h2 { font-size: clamp(1.4rem, 3.5vw, 2rem); margin-top: 0; }
+
+main {
+  padding: 2rem clamp(1rem, 4vw, 4rem) 4rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--stroke);
+  border-radius: 18px;
+  padding: 1rem 1.1rem;
+  backdrop-filter: blur(12px);
+}
+
+.kpis h3 {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--accent);
+}
+
+.section-copy {
+  color: var(--muted);
+  margin-top: -0.3rem;
+}
+
+.module-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.9rem 0;
+}
+
+.module-list button {
+  border: 1px solid var(--stroke);
+  background: transparent;
+  color: var(--text);
+  border-radius: 999px;
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+}
+
+.module-list button.active {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.details ul {
+  padding-left: 1rem;
+  margin: 0.3rem 0 0;
+}
+
+.timeline {
+  display: grid;
+  gap: 0.8rem;
+}
+
+footer {
+  padding: 1.2rem;
+  text-align: center;
+  color: #94a3b8;
+  border-top: 1px solid #1e293b;
+}
+
+@media (max-width: 720px) {
+  .hero { min-height: auto; }
+}
